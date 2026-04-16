@@ -101,6 +101,8 @@ body::before {
 }
 
 .hero-note {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   background:
     linear-gradient(180deg, rgba(255, 248, 236, 0.98), rgba(229, 214, 184, 0.88));
@@ -213,11 +215,19 @@ h1 {
   line-height: 1.75;
 }
 
+.hero-note__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.5rem;
+}
+
 .hero-note__chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin-top: 1.4rem;
+  margin-top: auto;
+  padding-top: 1.4rem;
 }
 
 .hero-note__chips span {
