@@ -6,107 +6,202 @@
     <title>Birdroot</title>
     <meta
       name="description"
-      content="Birdroot is the personal website of Saahil, with writing, research links, and downloadable documents."
+      content="Birdroot is the personal website of Turam Purty, with writing, research, documents, and public-facing work."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="hero">
-        <p class="eyebrow">birdroot.org</p>
-        <h1>Birdroot</h1>
-        <p class="intro">
-          A home for writing, research, and public-facing work in progress.
-        </p>
+        <div class="hero-copy">
+          <p class="eyebrow">birdroot.org</p>
+          <h1>Birdroot</h1>
+          <p class="intro">
+            A quieter home for research, writing, and experimental public work
+            on data, relation, and digital stewardship.
+          </p>
+          <div class="hero-actions">
+            <button
+              type="button"
+              class="action-button action-button--primary"
+              data-pdf-viewer
+              data-pdf-src="assets/Purty.T.CV_Apr15_26.pdf"
+              data-pdf-title="Curriculum Vitae"
+            >
+              Open CV
+            </button>
+            <a
+              class="action-button action-button--secondary"
+              href="assets/Purty.T.CV_Apr15_26.pdf"
+              download
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-note">
+          <p class="hero-note__label">Current focus</p>
+          <p class="hero-note__title">Research, publishing, and governance tools</p>
+          <p class="hero-note__body">
+            Birdroot brings together project work, documents, and public links in
+            one place, with a calmer reading experience and fewer dead ends.
+          </p>
+          <div class="hero-note__chips">
+            <span>Research</span>
+            <span>Writing</span>
+            <span>Prototypes</span>
+          </div>
+        </aside>
       </header>
 
       <main class="content-grid">
-        <section class="panel">
-          <h2>Downloads</h2>
-          <p>
-            A current CV and a poem on Birdroot, available as downloadable PDFs.
+        <section class="panel panel--feature">
+          <div class="panel-heading">
+            <p class="panel-kicker">Documents</p>
+            <h2>Read, preview, or download</h2>
+          </div>
+          <p class="panel-copy">
+            Open PDFs directly inside the site, then download them if you want a
+            local copy.
           </p>
-          <div class="link-list">
-            <a class="card-link" href="assets/Purty.T.CV_Apr6_26.pdf" download>
-              <span>Download CV</span>
-              <small>PDF</small>
-            </a>
-            <a class="card-link" href="assets/Birdroot_A_poem.pdf" download>
-              <span>Download Poem</span>
-              <small>PDF</small>
-            </a>
+
+          <div class="document-grid">
+            <article class="document-card">
+              <div>
+                <p class="document-card__eyebrow">Writing</p>
+                <h3>Birdroot: A Poem</h3>
+                <p>
+                  A short text that sits alongside the site as a personal and
+                  conceptual anchor.
+                </p>
+              </div>
+              <div class="document-card__actions">
+                <button
+                  type="button"
+                  class="card-link"
+                  data-pdf-viewer
+                  data-pdf-src="assets/Birdroot_A_poem.pdf"
+                  data-pdf-title="Birdroot: A Poem"
+                >
+                  <span>Open in viewer</span>
+                  <small>PDF</small>
+                </button>
+                <a class="card-link card-link--muted" href="assets/Birdroot_A_poem.pdf" download>
+                  <span>Download poem</span>
+                  <small>PDF</small>
+                </a>
+              </div>
+            </article>
           </div>
         </section>
 
         <section class="panel">
-          <h2>Ongoing Projects</h2>
-          <p>
-            Current work, code, and living documentation connected to Birdroot.
+          <div class="panel-heading">
+            <p class="panel-kicker">Projects</p>
+            <h2>Ongoing work</h2>
+          </div>
+          <p class="panel-copy">
+            Current research infrastructure, documentation, and code connected to
+            Birdroot.
           </p>
           <div class="link-list">
             <a
-              class="card-link"
+              class="card-link external-link"
               href="https://srj.birdroot.org/"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              <span>Project Site</span>
+              <span>Project site</span>
               <small>srj.birdroot.org</small>
             </a>
             <a
-              class="card-link"
+              class="card-link external-link"
               href="https://github.com/saahil634/srj"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              <span>GitHub Repository</span>
+              <span>GitHub repository</span>
               <small>github.com/saahil634/srj</small>
             </a>
             <a
-              class="card-link"
+              class="card-link external-link"
               href="https://srj.pubpub.org/"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              <span>PubPub Documentation</span>
+              <span>PubPub documentation</span>
               <small>srj.pubpub.org</small>
             </a>
           </div>
         </section>
 
         <section class="panel">
-          <h2>Web Presence</h2>
-          <p>
-            A few places where people can find my academic and professional work.
+          <div class="panel-heading">
+            <p class="panel-kicker">Presence</p>
+            <h2>Find me elsewhere</h2>
+          </div>
+          <p class="panel-copy">
+            Academic and professional profiles for research contact, institutional
+            context, and public-facing updates.
           </p>
           <div class="link-list">
             <a
-              class="card-link"
+              class="card-link external-link"
               href="http://ischool.uw.edu/people/phd/profile/turamp"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <span>Information School</span>
-              <small>PhD research inquiries</small>
+              <small>PhD research profile</small>
             </a>
             <a
-              class="card-link"
+              class="card-link external-link"
               href="https://www.linkedin.com/in/birdroute"
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <span>LinkedIn</span>
-              <small>Recommendations and professional contact</small>
+              <small>Professional contact and recommendations</small>
             </a>
           </div>
         </section>
       </main>
     </div>
+
+    <div class="pdf-modal" id="pdf-modal" aria-hidden="true">
+      <div class="pdf-modal__backdrop" data-close-pdf></div>
+      <div
+        class="pdf-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="pdf-modal-title"
+      >
+        <div class="pdf-modal__header">
+          <div>
+            <p class="pdf-modal__eyebrow">Document viewer</p>
+            <h2 id="pdf-modal-title">Preview</h2>
+          </div>
+          <div class="pdf-modal__actions">
+            <a id="pdf-modal-download" class="action-button action-button--secondary" href="#" download>
+              Download PDF
+            </a>
+            <button type="button" class="action-button action-button--ghost" data-close-pdf>
+              Close
+            </button>
+          </div>
+        </div>
+        <div class="pdf-modal__frame">
+          <iframe
+            id="pdf-modal-frame"
+            title="PDF document viewer"
+            src=""
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
     <div class="reveal-footer" id="reveal-footer" aria-hidden="true">
       <div class="reveal-footer__pill">
         Information. Copyright Turam Purty. Trustee 1/N.
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

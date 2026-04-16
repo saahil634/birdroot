@@ -4,6 +4,7 @@ Static personal website for `www.birdroot.org`.
 
 ## Contents
 
+- In-page PDF viewer for the CV and Birdroot poem
 - Downloadable CV PDF
 - Downloadable Birdroot poem PDF
 - Links to ongoing projects
